@@ -1,7 +1,6 @@
 This project is sample of E-commerce Reponsive project that is
  bootstrapped and using [Sass](https://sass-lang.com/) with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
 In the project directory, you can run:
 
