@@ -1,0 +1,48 @@
+
+@import '../../../Container/Styles/Variales.scss';
+
+.cardItem{
+    // padding: 0 10px;
+   &--body {
+    position: relative;
+    border: 1px solid $lightPink;
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    width:95%;
+    align-items: flex-end;
+    img{
+        max-width: 80%;
+        max-height: 140px;
+    }
+    .favourite{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color:$darkPink;
+    }
+    .lbl{
+        position: absolute;
+        top: 10px;
+        left: 0;  
+        color:$darkPink;
+    }
+    .discount{
+        border: 1px solid $lightPink;
+        background-color: $lightPink;
+        padding: 5px;
+        font-size: 11px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    .canShop{
+        font-size: 12px;
+        &-plus{
+           color: $black;
+           margin: 0 10px;
+           font-weight: bold;
+        }
+    }
+    }
+   
+}

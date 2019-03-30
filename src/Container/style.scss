@@ -1,0 +1,34 @@
+@import './Styles/Variales.scss';
+.App{
+    overflow: hidden;
+    background-color: $grayBC;
+  
+}
+.left-side{
+    padding: 0 5%;
+    border-right: 1px solid $lightGray;
+   &--container{
+    padding: 5% 12%;
+    border-right: 1px solid $blueBorder;
+    border-left: 1px solid $blueBorder;
+    background-color: $white;
+   }
+}
+
+.right-side{
+    max-height: 600px; 
+    overflow-y: auto;
+    float: left;
+    max-width: 24%;
+    border-bottom: 1px solid $lightGray;
+ 
+}
+
+@media only screen and (max-width: 800px) {
+    .right-side{
+    max-width: 100%;
+    padding: 0 5% 0 7% !important;
+    }
+  }
+
+  

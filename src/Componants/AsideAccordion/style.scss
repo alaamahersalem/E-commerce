@@ -1,0 +1,30 @@
+@import '../../Container/Styles/Variales.scss';
+.accordion{
+background-color: $white;
+&__title{
+background-color: transparent;
+padding: 15px;
+font-size: 15px;
+font-weight: 500;
+&:hover{
+    background-color: transparent;
+}
+}
+&-lbl{
+color: $darkGray;
+font-size: 13px;
+font-weight: 600;
+}
+&-value{
+ font-weight: 600;
+ font-size: 14px;
+ margin-left: 10px;
+}
+&__arrow{
+    left: 0;
+}
+}
+
+.u-position-relative{
+    padding-left: 30px;
+}

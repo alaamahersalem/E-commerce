@@ -1,0 +1,67 @@
+@import '../../../Container/Styles/Variales.scss';
+
+
+
+.videoItem{
+  border : 1px solid $lightPink;
+  border-radius: 2px;
+ 
+  &-Image{
+    // position: relative;
+    .img{
+    background-size: cover;
+    position: relative;
+    height: 210px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+   } 
+  }
+  &-Icon{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%); 
+    width: 50px;
+    height: 50px;
+    background-color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    opacity: .8;
+  }
+  .fa-play{
+    color: $darkPink;
+    font-size: 20px;
+  }
+  &-Txt{
+    padding: 30px 15px;
+    
+    line-height: 1.2;
+    font-size: 14px;
+    font-weight: 600;
+
+    &-title{
+    color: $darkPink;
+    margin-bottom: 14px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 600;
+
+    }
+  }
+}
+.VideoContainer:nth-child(1) {
+  padding-right: 0;
+}
+.VideoContainer:nth-child(2) {
+  padding: 0  10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .VideoContainer:nth-child(2) {
+    padding-right: 0;
+    margin-top: 10px;
+  }
+}
+

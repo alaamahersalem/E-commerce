@@ -1,0 +1,40 @@
+@import '../../Container/Styles/Variales.scss';
+.gallery{
+    position: relative;
+.fa-chevron-right{
+    position: absolute;
+    right: -23px;
+    top: 60%;
+    cursor: pointer;
+    font-size: 25px;
+    color: $darkGray;
+}
+.fa-chevron-left{
+    position: absolute;
+    left: -30px;
+    top: 60%;
+    cursor: pointer;
+    font-size: 25px;
+    color: $darkGray;
+    
+}
+&-title{ 
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 15px;
+    text-transform: uppercase; 
+
+}
+.trapezium {
+    border: 1px solid $lightPink;
+    padding: 10px;
+    margin-bottom: 15px;
+
+  }
+  span{
+      color: $darkPink;
+      font-weight: 500;
+  }
+}
